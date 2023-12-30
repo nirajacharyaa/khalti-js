@@ -1,7 +1,7 @@
 {
   "name": "khalti-js",
   "version": "0.0.1",
-  "description": "",
+  "description": "khalti payment gateway package for javascript",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -9,6 +9,9 @@
     "build": "tsup index.ts --format cjs,esm --dts",
     "release": "pnpm run build && changeset publish",
     "lint": "tsc"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [
     "Khalti",
