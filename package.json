@@ -1,0 +1,25 @@
+{
+  "name": "khalti-js",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "release": "pnpm run build && changeset publish",
+    "lint": "tsc"
+  },
+  "keywords": [
+    "Khalti",
+    "Khalti Payment Gateway",
+    "Khalti js"
+  ],
+  "author": "Niraj Acharya",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  }
+}
