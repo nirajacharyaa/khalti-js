@@ -1,6 +1,6 @@
 {
   "name": "khalti-js",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "khalti payment gateway package for javascript",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
